@@ -40,3 +40,36 @@
 .read-the-docs {
   color: #888;
 }
+
+button{
+  padding: 12px 16px;
+  border: none;
+  background-color: lightgray;
+  color: black;
+  border-radius: 160px;
+  cursor: pointer;
+
+}
+
+.active-button {
+  color: white;
+  background-color: black;
+}
+
+.buttons-box{
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.product-list{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+button:hover{
+  color: white;
+  background-color: black;
+}

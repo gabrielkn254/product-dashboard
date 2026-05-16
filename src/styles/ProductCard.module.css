@@ -1,3 +1,30 @@
 /* TODO: Style the product card container */
+.inStockClass{
+  background-color: aliceblue;
+  color: black;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  text-align: left;
 
+}
+
+.inStockClass .stock {
+  color: green;
+}
 /* TODO: Add special styling for out-of-stock products */
+
+.outOfStockClass {
+  color: black;
+  background-color: rgba(255, 0, 0, 0.05);
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  text-align: left;
+}
+
+.outOfStockClass .stock {
+  color: red;
+}
